@@ -11,7 +11,7 @@ def take_a_number(array, name)
       array << puts "#{name}"
     end
     new_line = []
-    array.each_with_index.map do |name, index| 
+    array.each_with_index.map do |name, index|
       new_line << puts "Welcome, #{name}. You are number #{index+1} in line."
     end
     return new_line
