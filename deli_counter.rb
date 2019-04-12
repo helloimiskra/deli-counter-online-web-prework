@@ -21,7 +21,7 @@ def now_serving(array)
     puts "There's nobody waiting to be served!"
   else
     array.each do |name| puts "Currently serving: #{name}."
-      array.pop
+    array.pop
     end
   end
 end
