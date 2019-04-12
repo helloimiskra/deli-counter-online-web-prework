@@ -12,10 +12,6 @@ def line(array)
 end
 
 def take_a_number (array, name)
-  if array.empty?
-    array.push(name)
-  else
-    array.each_with_index do |name, index| "Welcome, #{name}. You are currently #{index+1} in line."
-  end
-  return current_line
+  array << name
+  puts "Welcome, #{name}. You are number #{array.length} in line."
 end
