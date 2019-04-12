@@ -10,3 +10,11 @@ def line(array)
     puts new_array
   end
 end
+
+def take_a_number (array, name)
+  current_line = []
+  current_line.push(name)
+  current_line.each_with_index do |name, index| "Welcome, #{name}. You are currently #{index+1} in line."
+  end
+  return current_line
+end
