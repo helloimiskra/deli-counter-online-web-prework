@@ -19,11 +19,6 @@ def take_a_number(array, name)
 end
 
 def now_serving(katz_deli)
-  if array.length > 0
-    array.each do |name| "Currently serving: #{name}"
-    end
-  else
-    array.length == 0
-    name += 1
+  array.each do |name| "Currently serving: #{name}"
   end
 end
